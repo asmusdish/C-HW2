@@ -9,5 +9,6 @@ if(n < 100 || n > 999)
     Console.WriteLine("Вы ввели не трехназное число!");
     return;
 }
-int res = (n % 100 - n % 10)/10;
+int res = n % 100 / 10;
+//int res = (n % 100 - n % 10)/10;
 Console.WriteLine("Вторая цифра введенного числа = " + res);   
